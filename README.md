@@ -1,17 +1,21 @@
-# slot_machine_ostapova
+# Лабораторная работа №9 "Flutter: StatefulWidget и управление состоянием"
 
-A new Flutter project.
+**Фамилия, имя:** Остапова Ульяна
+**Группа:** ИСП-241
+**Дата сдачи:** 09.11.2026
 
-## Getting Started
+## Что изучено
+- Изучена разница между `StatelessWidget` и `StatefulWidget`, где первый описывает интерфейс по переданной конфигурации и `BuildContext`, но не хранит собственное состояние. А `StatefulWidget`, наоборот, помнит своё состояние и умеет его изменять.
 
-This project is a starting point for a Flutter application.
+- Управление состоянием приложения через `setState()` с помощью которого Flutter получает сигнал об изменении состояния и повторно вызывает `build()` с новыми значениями переменных.
 
-A few resources to get you started if this is your first Flutter project:
+- Подключение локальных изображений через `assets` в файле pubspec.yaml и `static const` для хранения путей к изображениям.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Скриншот финального приложения
+![Приложение](img/final_Ostapova.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску
+1. Клонировать репозиторий: `git clone https://github.com/Uliana-Ostapova/Flutter_Lab9.git`
+2. Перейти в папку проекта `cd Flutter_Lab9`
+3. Выполнить `flutter pub get`
+4. Запустить приложение в браузере `flutter run -d chrome`
